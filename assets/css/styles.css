@@ -63,10 +63,12 @@
   --clay-100: #f5e7db;
 
   --gold-500: #c9a26b;
+  --gold-text: #8a6d1c;
+  --ember-on-dark: #e8a97f;   /* readable gold on light grounds; gold-500 is for fills */
 
   --ink: #1c2a24;
-  --ink-soft: #41544b;
-  --ink-mute: #6b7d73;
+  --ink-soft: #3a4c44;
+  --ink-mute: #5a6b62;
 
   --radius-sm: 10px;
   --radius: 18px;
@@ -163,6 +165,10 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   color: var(--clay-600);
   margin: 0 0 1rem;
 }
+/* The shared eyebrow is a clay that only works on light grounds; on the dark hero
+   and dark sections it needs a light accent. */
+.hero .eyebrow, .section--booking .eyebrow, .footer .eyebrow { color: var(--ember-on-dark); }
+
 .eyebrow::before {
   content: "";
   width: 1.6rem;
@@ -418,7 +424,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   align-items: center;
   padding-block: clamp(2.25rem, 4.5vw, 3.75rem);
 }
-.hero__eyebrow { color: var(--gold-500); margin-bottom: .9rem; }
+.hero__eyebrow { color: var(--ember-on-dark); margin-bottom: .9rem; }
 .hero__title {
   font-size: clamp(2rem, 1.15rem + 3.9vw, 3.6rem);
   line-height: 1.1;
@@ -609,7 +615,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   font-size: .82rem;
   font-weight: 600;
   letter-spacing: .1em;
-  color: var(--gold-500);
+  color: var(--gold-text);
   margin-bottom: .45rem;
 }
 .group__title {
