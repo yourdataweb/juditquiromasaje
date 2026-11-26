@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "title": "Judit Quiromasaje — Massatges i estètica avançada a Vilanova i la Geltrú",
+    "description": "Estudi de massatge i estètica avançada a la Rambla de l'Exposició, 103, Vilanova i la Geltrú. Massatge de teixit profund, tractaments facials i corporals, làser i cura de la pell. Demana hora per WhatsApp.",
+    "ogAlt": "Massatge i estètica avançada a Vilanova i la Geltrú, amb hora per WhatsApp"
+  },
+  "ogLocale": "ca_ES",
+  "pathPrefix": "./",
+  "countryName": "Espanya",
+  "brand": {
+    "sub": "Massatge i estètica"
+  },
+  "nav": {
+    "skip": "Salta al contingut",
+    "label": "Navegació principal",
+    "menuToggle": "Obre el menú",
+    "treatments": "Tractaments",
+    "firstVisit": "Primera visita",
+    "studio": "L'estudi",
+    "reviews": "Opinions",
+    "contact": "Reservar"
+  },
+  "hero": {
+    "eyebrow": "Rambla de l'Exposició, 103 · Vilanova i la Geltrú",
+    "title": "Un massatge que et torna el coll i l'esquena",
+    "subtitle": "Judit treballa el massatge i l'estètica avançada amb les mans i amb temps: primer t'escolta, després decideix com tractar la zona que et molesta. Sense presses i sense pautar-te res que no necessitis.",
+    "ctaPrimary": "Demanar hora",
+    "ctaSecondary": "619 37 67 76",
+    "hint": "Respon directament ella. Si li expliques què et passa, t'orienta sobre quin tractament et convé abans de tancar el dia i l'hora.",
+    "cardKicker": "Com es treballa aquí",
+    "point1": "Escolta abans de començar: la sessió s'adapta a com arribes aquell dia.",
+    "point2": "Massatge de teixit profund i tractament de nusos i tensions.",
+    "point3": "Estètica avançada: làser, cura facial i cosmètica que ella mateixa recomana.",
+    "cardLink": "Veure els tractaments",
+    "ratingLabel": "sobre 5 a Google",
+    "ratingReviews": "opinions",
+    "photoAlt": "Interior de l'estudi de massatge i estètica de Judit Quiromasaje, a Vilanova i la Geltrú",
+    "photoCredit": "Foto"
+  },
+  "treat": {
+    "eyebrow": "Tractaments",
+    "title": "Què es pot tractar",
+    "lead": "Tres línies de feina que sovint es combinen en una mateixa visita. No hi ha carta de preus penjada aquí: cada sessió es valora segons el que necessites i el temps que hi dedicarem, i t'ho diem abans de començar.",
+    "massage": {
+      "title": "Massatge",
+      "lead": "El nucli de l'estudi i el motiu pel qual la majoria de gent hi arriba per primera vegada.",
+      "items": [
+        {
+          "name": "Massatge de teixit profund",
+          "text": "Pressió ferma i sostinguda sobre la musculatura que fa setmanes que estira. És el tractament que més vegades surt a les opinions: gent que entra amb el coll bloquejat i marxa sense el nus."
+        },
+        {
+          "name": "Tractament de nusos i tensions",
+          "text": "Per a punts concrets —el coll, l'escàpula, la zona lumbar— que no se'n van amb estiraments a casa. Es treballa la zona i també el que l'envolta, perquè el nus no torni de seguida."
+        },
+        {
+          "name": "Massatge de cos sencer",
+          "text": "Una sessió completa quan el que cal és desconnectar de veritat. També és el que més es regala, i l'estudi té targetes de regal."
+        }
+      ]
+    },
+    "aesthetics": {
+      "title": "Estètica avançada",
+      "lead": "Aparells i cosmètica de tractament, sempre amb una valoració prèvia de la pell.",
+      "items": [
+        {
+          "name": "Depilació làser",
+          "text": "Un dels serveis pels quals més es recomana l'estudi: clientes que havien provat altres centres i que aquí han notat la diferència després d'anys de sessions."
+        },
+        {
+          "name": "Cura facial",
+          "text": "Neteja, hidratació i tractament segons com tens la pell aquell dia, no segons un protocol fix. Sortir amb la pell calmada i amb indicacions per a casa."
+        },
+        {
+          "name": "Cures i aparells",
+          "text": "Tractaments puntuals d'estètica avançada que es decideixen a la consulta, un cop vist què necessita la pell i què no li convé."
+        }
+      ]
+    },
+    "body": {
+      "title": "Cos i productes",
+      "lead": "El que pots endur-te a casa i el que es treballa sobre el cos més enllà del massatge.",
+      "items": [
+        {
+          "name": "Exfoliació corporal",
+          "text": "Pells que demanen renovar-se, sobretot abans de l'estiu o després d'un hivern llarg. Es nota de seguida i prepara la pell per a la resta del tractament."
+        },
+        {
+          "name": "Cosmètica de l'estudi",
+          "text": "Gel d'àloe, desodorant en crema i exfoliant de iogurt: productes que ella fa servir i recomana perquè els ha provat, no perquè toqui vendre'ls."
+        },
+        {
+          "name": "Targetes de regal",
+          "text": "Per regalar una sessió sense haver de triar tu el tractament: qui la rep decideix què vol quan truca. És un dels detalls que més esmenten les opinions."
+        }
+      ]
+    },
+    "note": "Si no tens clar quin tractament és el teu, digues-ho al missatge: amb quatre ratlles sobre què et passa n'hi ha prou per orientar-te."
+  },
+  "first": {
+    "eyebrow": "Primera visita",
+    "title": "Com funciona la primera vegada",
+    "lead": "No cal que sàpigues el nom del tractament ni quantes sessions necessites. Això es decideix allà, parlant.",
+    "body": "L'estudi és petit i la visita és d'una en una: no et trobaràs una sala d'espera plena ni algú amb pressa perquè comenci la següent sessió. Si vens per una molèstia concreta, explica des de quan la tens i què has provat; si vens a estètica, digues què t'ha funcionat i què no en altres centres.",
+    "cta": "Escriure per WhatsApp",
+    "step1Title": "Escrius un missatge",
+    "step1Text": "Al WhatsApp, amb el que et passa i quina estona et va bé. No cal formulari ni trucada prèvia.",
+    "step2Title": "Et contesta amb una proposta",
+    "step2Text": "Et diu quin tractament encaixa, quant temps necessita i quant costarà, abans de reservar res.",
+    "step3Title": "Vens amb marge",
+    "step3Text": "Arriba uns minuts abans per poder parlar sense córrer. Si portes informes mèdics o cremes que fas servir, porta'ls.",
+    "step4Title": "Marxem amb un pla",
+    "step4Text": "Després de la sessió saps com has quedat, què fer a casa i, si cal tornar, quan té sentit fer-ho.",
+    "practical1": "S'hi pot pagar amb targeta.",
+    "practical2": "Es regalen sessions amb targeta de regal.",
+    "practical3": "L'entrada és accessible amb cadira de rodes."
+  },
+  "about": {
+    "eyebrow": "L'estudi",
+    "title": "Una professional, un despatx i molta gent que repeteix",
+    "lead": "Judit Quiromasaje és un estudi de massatge i estètica avançada a la Rambla de l'Exposició. Al darrere hi ha una sola professional, i això explica com funciona tot plegat.",
+    "body1": "Qui hi va ho explica sempre de la mateixa manera: primer l'escolta, després treballa. La sessió no ve d'un protocol sinó de com arribes aquell dia, i per això les mateixes mans serveixen per a un coll bloquejat i per a una pell que necessita un tractament concret.",
+    "body2": "La fama li ve del boca a boca. Més de cent seixanta opinions i una mitjana de cinc sobre cinc no s'aconsegueixen amb publicitat: s'aconsegueixen quan la gent que surt millorada ho explica a la seva gent.",
+    "statRatingLabel": "Nota mitjana",
+    "statRating": "a Google, sense cap ressenya per sota",
+    "statReviewsLabel": "Opinions",
+    "statReviews": "de clientes i clients reals",
+    "statTypeLabel": "Especialitat",
+    "statTypeValue": "Massatge",
+    "statType": "i estètica avançada",
+    "statPlaceLabel": "On",
+    "statPlace": "Rambla de l'Exposició, 103",
+    "pull": "«Des que la vaig conèixer, no vaig a cap altre lloc.»",
+    "pullAuthor": "Clienta de l'estudi, a Google"
+  },
+  "reviews": {
+    "eyebrow": "Opinions",
+    "title": "El que diu la gent que hi ha passat",
+    "lead": "Cinc opinions de cinc estrelles, triades entre les més de cent seixanta que hi ha a Google. Les hem traduït al català i n'hem retallat la part que parla del tractament.",
+    "reviewsWord": "opinions",
+    "onGoogle": "a Google",
+    "readAll": "Llegir totes les opinions a Google",
+    "starsLabel": "{n} de 5 estrelles",
+    "items": {
+      "t1": {
+        "text": "Vaig anar-hi amb molt de dolor al coll i l'experiència va ser molt bona des del primer moment. Em va escoltar, em va explicar què faria i el tractament va funcionar: la millora es va notar de seguida i en els dies següents el dolor va baixar molt.",
+        "author": "Marc Sanchez Margalef",
+        "meta": "fa 6 mesos",
+        "stars": 5
+      },
+      "t2": {
+        "text": "Hi vaig entrar amb molta tensió muscular i vaig sortir com nou. Servei excel·lent i tracte boníssim. Sens dubte hi tornaré.",
+        "author": "Gaston Manero",
+        "meta": "fa un mes",
+        "stars": 5
+      },
+      "t3": {
+        "text": "Els tractaments amb la Judit són una experiència molt bona: els personalitza i els adapta al que necessites, amb honestedat. El làser és el millor resultat que he tingut després d'anys provant llocs. I la targeta de regal va fer feliç qui la va rebre.",
+        "author": "Jennifer",
+        "meta": "fa 11 mesos",
+        "stars": 5
+      },
+      "t4": {
+        "text": "Excel·lent massatgista. Tenia un nus terrible al coll i a l'esquena i me'l va treure. Mans excel·lents, hi tornaré.",
+        "author": "Katty Urriola",
+        "meta": "fa un mes",
+        "stars": 5
+      },
+      "t5": {
+        "text": "Servei excel·lent. Vaig fer un massatge de teixit profund i des del primer minut la Judit va posar tot l'esforç a fer-me sentir millor. Del tot recomanable.",
+        "author": "Natalia Sanmamed",
+        "meta": "fa 11 mesos",
+        "stars": 5
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Reservar",
+    "title": "Demana hora per WhatsApp",
+    "lead": "El mòbil és el canal més ràpid: contesta ella mateixa i normalment es pot concretar dia i hora en poques converses. Si prefereixes parlar, truca al mateix número.",
+    "whatsappCta": "Escriure al 619 37 67 76",
+    "whatsappNote": "Si escrius, ajuda dir en una línia què necessites —massatge, làser, facial— i quins dies et van bé.",
+    "phoneLabel": "Telèfon",
+    "phoneNote": "Trucades i WhatsApp al mateix número.",
+    "addressLabel": "Adreça",
+    "findLabel": "On trobar-la",
+    "findMeta": "Ressenyes, fotos i com arribar",
+    "googleListing": "Fitxa de Google Maps",
+    "mapNote": "El mapa només es carrega si acceptes les galetes de google.com.",
+    "mapLoad": "Carregar el mapa",
+    "mapTitle": "Mapa amb la ubicació de l'estudi a la Rambla de l'Exposició, 103"
+  },
+  "footer": {
+    "tagline": "Massatge i estètica avançada a Vilanova i la Geltrú. Visites d'una en una, amb hora prèvia.",
+    "navTitle": "La pàgina",
+    "contactTitle": "Contacte",
+    "legalTitle": "Informació",
+    "whatsapp": "WhatsApp",
+    "siteLink": "Lloc web",
+    "legal": "Els tractaments d'aquest estudi no substitueixen un diagnòstic mèdic. Si tens una lesió o una malaltia en curs, consulta primer el teu metge.",
+    "rights": "Tots els drets reservats."
+  },
+  "cookies": {
+    "text": "Aquesta pàgina només fa servir galetes si acceptes. Sense el teu permís no es carrega el mapa ni cap mesura de visites.",
+    "policy": "Galetes",
+    "accept": "Acceptar",
+    "reject": "Només les necessàries"
+  },
+  "a11y": {
+    "langSwitch": "Idioma",
+    "menuToggle": "Obre o tanca el menú"
+  }
+}

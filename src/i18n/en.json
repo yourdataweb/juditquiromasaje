@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "title": "Judit Quiromasaje — Massage and advanced aesthetics in Vilanova i la Geltrú",
+    "description": "Massage and advanced aesthetics studio at Rambla de l'Exposició, 103, Vilanova i la Geltrú. Deep tissue massage, facial and body treatments, laser and skincare. Book by WhatsApp.",
+    "ogAlt": "Massage and advanced aesthetics in Vilanova i la Geltrú, bookable by WhatsApp"
+  },
+  "ogLocale": "en_GB",
+  "pathPrefix": "../",
+  "countryName": "Spain",
+  "brand": {
+    "sub": "Massage & aesthetics"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "label": "Main navigation",
+    "menuToggle": "Open the menu",
+    "treatments": "Treatments",
+    "firstVisit": "First visit",
+    "studio": "The studio",
+    "reviews": "Reviews",
+    "contact": "Book"
+  },
+  "hero": {
+    "eyebrow": "Rambla de l'Exposició, 103 · Vilanova i la Geltrú",
+    "title": "A massage that gives you back your neck — and your back",
+    "subtitle": "Judit works with her hands and with time: she listens first, then decides how to treat the area that is bothering you. No rushing, and nothing prescribed you do not need.",
+    "ctaPrimary": "Book now",
+    "ctaSecondary": "619 37 67 76",
+    "hint": "She answers herself. If you describe what is going on, she will tell you which treatment fits before you settle on a day and time.",
+    "cardKicker": "How it works here",
+    "point1": "She listens before starting: the session adapts to how you arrive that day.",
+    "point2": "Deep tissue work, plus treatment for knots and tension.",
+    "point3": "Advanced aesthetics: laser, facial care and the skincare she uses herself.",
+    "cardLink": "See the treatments",
+    "ratingLabel": "out of 5 on Google",
+    "ratingReviews": "reviews",
+    "photoAlt": "Inside Judit Quiromasaje's massage and aesthetics studio in Vilanova i la Geltrú",
+    "photoCredit": "Photo"
+  },
+  "treat": {
+    "eyebrow": "Treatments",
+    "title": "What can be treated",
+    "lead": "Three lines of work that often combine in a single visit. There is no price list pasted up here: each session is agreed on what you need and how long it will take, and you hear that before anything begins.",
+    "massage": {
+      "title": "Massage",
+      "lead": "The heart of the studio, and the reason most people come here for the first time.",
+      "items": [
+        {
+          "name": "Deep tissue massage",
+          "text": "Firm, sustained pressure on muscles that have been pulling for weeks. It is the treatment that comes up most in the reviews: people who arrive with a locked neck and leave without the knot."
+        },
+        {
+          "name": "Knots and tension",
+          "text": "For specific points — the neck, the shoulder blade, the lower back — that stretching at home does not shift. The area is worked along with what surrounds it, so the knot does not come straight back."
+        },
+        {
+          "name": "Full body massage",
+          "text": "A complete session when what you need is to properly switch off. It is also the one most often given as a present, and the studio keeps gift cards."
+        }
+      ]
+    },
+    "aesthetics": {
+      "title": "Advanced aesthetics",
+      "lead": "Devices and treatment skincare, always after the skin has been assessed first.",
+      "items": [
+        {
+          "name": "Laser hair removal",
+          "text": "One of the services the studio is recommended for most: clients who had tried other places and who noticed the difference here after years of sessions elsewhere."
+        },
+        {
+          "name": "Facial care",
+          "text": "Cleansing, hydration and treatment based on how your skin is that day, not on a fixed protocol. You leave with calmer skin and with instructions for home."
+        },
+        {
+          "name": "Targeted treatments",
+          "text": "One-off advanced aesthetics work decided in the room, once it is clear what the skin needs and what it does not."
+        }
+      ]
+    },
+    "body": {
+      "title": "Body and products",
+      "lead": "What you can take home, and the body work that goes beyond massage.",
+      "items": [
+        {
+          "name": "Body scrub",
+          "text": "Skin that needs renewing, especially before summer or after a long winter. It shows immediately and prepares the skin for the rest of the treatment."
+        },
+        {
+          "name": "Studio skincare",
+          "text": "Aloe gel, cream deodorant and a yoghurt scrub: products she uses and recommends because she has tried them, not because there is something to sell."
+        },
+        {
+          "name": "Gift cards",
+          "text": "For giving a session without having to choose the treatment yourself: whoever receives it decides what they want when they call. It is one of the details the reviews mention most."
+        }
+      ]
+    },
+    "note": "If you are not sure which treatment is yours, say so in the message: four lines about what is going on is enough to point you in the right direction."
+  },
+  "first": {
+    "eyebrow": "First visit",
+    "title": "How the first time works",
+    "lead": "You do not need to know the name of the treatment or how many sessions you need. That gets decided there, talking.",
+    "body": "The studio is small and visits are one at a time: there is no full waiting room, and nobody hurrying you because the next session is due. If you are coming about a specific problem, say how long you have had it and what you have already tried; if you are coming for aesthetics, say what has worked and what has not elsewhere.",
+    "cta": "Message on WhatsApp",
+    "step1Title": "You send a message",
+    "step1Text": "On WhatsApp, with what is going on and when suits you. No form to fill in and no call first.",
+    "step2Title": "She replies with a proposal",
+    "step2Text": "She tells you which treatment fits, how long it needs and what it will cost, before anything is booked.",
+    "step3Title": "You come with time to spare",
+    "step3Text": "Arrive a few minutes early so there is room to talk. If you have medical reports or creams you use, bring them.",
+    "step4Title": "You leave with a plan",
+    "step4Text": "After the session you know how you are, what to do at home, and — if you need to come back — when it makes sense to.",
+    "practical1": "Card payments accepted.",
+    "practical2": "Sessions can be given as gift cards.",
+    "practical3": "Step-free entrance, accessible by wheelchair."
+  },
+  "about": {
+    "eyebrow": "The studio",
+    "title": "One professional, one room, and a lot of people who come back",
+    "lead": "Judit Quiromasaje is a massage and advanced aesthetics studio on Rambla de l'Exposició. There is a single practitioner behind it, and that explains how everything works.",
+    "body1": "People describe it the same way every time: she listens first, then works. The session does not follow a protocol but follows how you arrive that day, which is why the same hands suit a locked neck and skin that needs a specific treatment.",
+    "body2": "The reputation comes from word of mouth. More than a hundred and sixty reviews and an average of five out of five are not built with advertising: they happen when people who leave feeling better tell the people around them.",
+    "statRatingLabel": "Average rating",
+    "statRating": "on Google, with no review below it",
+    "statReviewsLabel": "Reviews",
+    "statReviews": "from real clients",
+    "statTypeLabel": "Speciality",
+    "statTypeValue": "Massage",
+    "statType": "and advanced aesthetics",
+    "statPlaceLabel": "Where",
+    "statPlace": "Rambla de l'Exposició, 103",
+    "pull": "“Since I met her, I don't go anywhere else.”",
+    "pullAuthor": "Studio client, on Google"
+  },
+  "reviews": {
+    "eyebrow": "Reviews",
+    "title": "What the people who have been say",
+    "lead": "Five five-star reviews, chosen from the more than one hundred and sixty on Google. We have translated them into English and trimmed each one to the part about the treatment.",
+    "reviewsWord": "reviews",
+    "onGoogle": "on Google",
+    "readAll": "Read all reviews on Google",
+    "starsLabel": "{n} out of 5 stars",
+    "items": {
+      "t1": {
+        "text": "I went in with a lot of neck pain and the experience was very good from the first moment. She listened, explained what she would do, and the treatment worked: I noticed the improvement straight away and over the following days the pain dropped a lot.",
+        "author": "Marc Sanchez Margalef",
+        "meta": "6 months ago",
+        "stars": 5
+      },
+      "t2": {
+        "text": "I walked in with a lot of muscle tension and left feeling like new. Excellent service and a lovely manner. I will definitely be back.",
+        "author": "Gaston Manero",
+        "meta": "a month ago",
+        "stars": 5
+      },
+      "t3": {
+        "text": "Treatments with Judit are a genuinely good experience: she personalises them and adapts them to what you need, honestly. The laser is the best result I have had after years of trying places. And the gift card made the person who received it very happy.",
+        "author": "Jennifer",
+        "meta": "11 months ago",
+        "stars": 5
+      },
+      "t4": {
+        "text": "Excellent massage therapist. I had a terrible knot in my neck and back and she got rid of it. Excellent hands, I will be back.",
+        "author": "Katty Urriola",
+        "meta": "a month ago",
+        "stars": 5
+      },
+      "t5": {
+        "text": "Excellent service. I had a deep tissue massage and from the first minute Judit put all her effort into making me feel better. Thoroughly recommended.",
+        "author": "Natalia Sanmamed",
+        "meta": "11 months ago",
+        "stars": 5
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Book",
+    "title": "Book by WhatsApp",
+    "lead": "The mobile is the fastest route: she answers herself and a day and time usually gets settled in a couple of messages. If you would rather talk, call the same number.",
+    "whatsappCta": "Message 619 37 67 76",
+    "whatsappNote": "If you write, it helps to say in one line what you need — massage, laser, facial — and which days suit you.",
+    "phoneLabel": "Phone",
+    "phoneNote": "Calls and WhatsApp on the same number.",
+    "addressLabel": "Address",
+    "findLabel": "Where to find her",
+    "findMeta": "Reviews, photos and directions",
+    "googleListing": "Google Maps listing",
+    "mapNote": "The map only loads if you accept cookies from google.com.",
+    "mapLoad": "Load the map",
+    "mapTitle": "Map showing the studio at Rambla de l'Exposició, 103"
+  },
+  "footer": {
+    "tagline": "Massage and advanced aesthetics in Vilanova i la Geltrú. One client at a time, by appointment.",
+    "navTitle": "This site",
+    "contactTitle": "Contact",
+    "legalTitle": "Information",
+    "whatsapp": "WhatsApp",
+    "siteLink": "Website",
+    "legal": "Treatments at this studio are not a substitute for a medical diagnosis. If you have an injury or an ongoing condition, see your doctor first.",
+    "rights": "All rights reserved."
+  },
+  "cookies": {
+    "text": "This page only uses cookies if you accept them. Without your permission the map does not load and no visit measurement runs.",
+    "policy": "Cookies",
+    "accept": "Accept",
+    "reject": "Essential only"
+  },
+  "a11y": {
+    "langSwitch": "Language",
+    "menuToggle": "Open or close the menu"
+  }
+}
