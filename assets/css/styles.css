@@ -1191,6 +1191,14 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .group { padding: 1.3rem 1.15rem; }
 }
 
+/* On a phone the hero stacks, so the photo must not be pushed below the first
+   screen: tighten the block padding and cap the image height. */
+@media (max-width: 640px) {
+  .hero__inner { padding-block: 1.35rem 1.75rem; gap: 1.25rem; }
+  .hero__photo img { height: clamp(8.5rem, 20vh, 12rem); }
+  .hero__subtitle, .hero__lede { margin-bottom: 1rem; }
+}
+
 @media (max-width: 380px) {
   .brand__mark { width: 34px; height: 34px; }
   .quote { padding: 1.15rem 1rem; }
