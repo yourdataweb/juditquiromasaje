@@ -1133,12 +1133,13 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .cookiebar__reject:hover { background: var(--cream-100); }
 
 /* ---------- reveal on scroll ---------- */
-.reveal {
+.js .reveal {
   opacity: 0;
   transform: translateY(16px);
   transition: opacity .6s ease, transform .6s cubic-bezier(.22, 1, .36, 1);
 }
-.reveal.is-visible { opacity: 1; transform: none; }
+.js .reveal.is-visible {
+ opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; transition: none; }
