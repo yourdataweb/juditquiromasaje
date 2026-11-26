@@ -1,53 +1,82 @@
-# Judit Quiromasaje — website
+# Judit Quiromasaje y Estética avanzada — website
 
-Static trilingual site for **Judit Quiromasaje y Estética avanzada**, a massage and
-advanced aesthetics studio at Rambla de l'Exposició, 103, Vilanova i la Geltrú.
+Static site for **Judit Quiromasaje y Estética avanzada**, a massage and advanced aesthetics studio at Rambla de l'Exposició, 103, Vilanova i la Geltrú.
 
-Published at <https://juditquiromasaje.vilanovailageltru.info/>.
+Three languages, server-rendered HTML per locale, plain CSS and one small
+progressive-enhancement script. No framework, no runtime dependencies.
+
+## Live site
+
+- **Catalan (default):** <https://juditquiromasaje.vilanovailageltru.info/>
+- **Spanish:** <https://juditquiromasaje.vilanovailageltru.info/es/>
+- **English:** <https://juditquiromasaje.vilanovailageltru.info/en/>
+
+## Page structure
+
+Hero with WhatsApp as the primary action and the phone as secondary. Treatments grouped
+into massage, advanced aesthetics and body/products, a first-visit walkthrough in four steps with
+a practical strip, the studio itself, reviews, and a booking contact section.
+
+## Repo layout
+
+```
+index.html                 Catalan (default locale)
+es/index.html              Spanish
+en/index.html              English
+ca/index.html              redirect to / (the default locale used to live here)
+src/template.html          the single template the build renders
+src/data.json              business data (address, phone, coordinates, rating)
+src/locales.json           locale list, which one is default, hreflang codes
+src/i18n/{ca,es,en}.json   all copy, per locale
+scripts/build.mjs          renders the locale pages + sitemap, robots, manifest
+scripts/assets.mjs         app icons and the Open Graph image
+scripts/card.mjs           handover card, 10.5 x 14.5 cm @ 300 dpi
+scripts/verify.mjs         headless checks against the built output
+assets/css/styles.css      all styles, responsive from 320 px up
+assets/js/main.js          navigation, reveal, cookie consent, lazy map
+assets/fonts/              self-hosted Fraunces and Inter (woff2 subsets)
+assets/img/                mark, icons, hero photo, OG image
+assets/photos/handover.png handover card with a QR to the live site
+.github/workflows/         deploy to S3 on push to main
+```
 
 ## Build
 
+Requires Node 20+ and `puppeteer` for the asset scripts.
+
 ```bash
-node scripts/build.mjs      # renders index.html, es/, en/, sitemap, robots, manifest
-node scripts/assets.mjs     # favicon, icons, og-image.jpg
-node scripts/verify.mjs     # headless checks over the built output
-node scripts/card.mjs       # assets/photos/handover.png (10.5 x 14.5 cm @ 300 dpi + QR)
+node scripts/build.mjs     # render the locale pages
+node scripts/assets.mjs    # regenerate icons and og-image.jpg
+node scripts/card.mjs      # regenerate the handover card
+node scripts/verify.mjs    # headless verification of the built output
 ```
 
-`node_modules` is a symlink to the workspace modules and is ignored by git.
+`build.mjs` fails on an unresolved template placeholder, an empty `href`/`src`, invalid
+JSON-LD, or a feature icon that has no entry in `scripts/icons.json`.
 
-## Structure
+## Editing content
 
-```
-src/template.html      single template for all locales
-src/data.json          business facts (build reads it; no absolute URLs)
-src/locales.json       ca (default, ""), es ("es/"), en ("en/")
-src/i18n/<code>.json   copy per locale
-src/photos/            source photo, downscaled and copied to assets/img/ at build
-assets/css/styles.css  one stylesheet, palette tokens in :root
-assets/js/main.js      progressive enhancement: nav, reveal, cookie consent, map gate
-scripts/               build / verify / assets / card
-```
-
-## Notes
-
-- **WhatsApp first.** The number is a Spanish mobile, so the booking action is a
-  `wa.me` link in the hero, the first-visit block, the header and the contact section.
-  A `tel:` link to the same number sits next to it.
-- **Reviews.** Five five-star reviews are quoted as extracts, translated into each
-  locale and attributed with the author and relative date. The 5.0/167 aggregate comes
-  from the Google listing and is surfaced in the hero, the stats grid and the reviews header.
-- **Map and analytics are behind consent.** The map iframe lives in a `<template>` and
-  is only appended after the visitor accepts; GA4 is loaded on accept only, with consent
-  mode `denied` by default. Analytics use the shared `cookie-consent-v1` key.
-- **Photo credit.** The hero photo is the studio's own Google listing photo; the
-  attribution link is rendered in the caption.
-- **No prices or opening hours.** Neither is asserted, because neither is confirmed for
-  this business; the treatment lists say the cost is agreed before a session starts.
-- **URLs.** Canonical, `og:url`, hreflang, sitemap and the handover QR all derive from
-  `slug` + `siteDomain` in `src/data.json`.
+Text lives in `src/i18n/*.json`; shared business facts live in `src/data.json`. Change those,
+run `node scripts/build.mjs`, commit the regenerated HTML. Do not hand-edit the generated
+`index.html` files — they are overwritten.
 
 ## Deploy
 
-`.github/workflows/deploy-aws.yml` builds, then syncs to
-`s3://dr-static-websites/vilanovailageltru.info/juditquiromasaje/` (region `eu-south-2`).
+Pushing to `main` runs `.github/workflows/deploy-aws.yml`: it builds the site, authenticates
+to AWS with OIDC (no stored keys) and uploads to
+`s3://dr-static-websites/vilanovailageltru.info/juditquiromasaje/`. The subdomain is served from the bucket's CDN, so a
+deploy is live within a few minutes.
+
+## Technical notes
+
+- **SEO** — per-locale `<title>`, description, canonical, reciprocal `hreflang` including
+  `x-default`, Open Graph and Twitter cards, `sitemap.xml` with alternates, `robots.txt`, and
+  `HealthAndBeautyBusiness` structured data. Every absolute URL derives from the site's own domain.
+- **Accessibility** — one `h1` per page, skip link, landmark elements, visible focus rings,
+  body text at or above 4.5:1 contrast, `aria-expanded` on the navigation toggle, Escape
+  closes the drawer, and content stays readable with JavaScript disabled.
+- **Performance** — self-hosted woff2 subsets preloaded, one CSS file, one deferred JS file,
+  no third-party requests until the visitor opts in.
+- **Privacy** — the cookie notice offers accept and reject. Nothing is fetched from Google —
+  analytics script or map iframe — until the visitor accepts; rejecting loads neither and is
+  remembered.
