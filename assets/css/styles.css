@@ -460,6 +460,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   line-height: 1.1;
   letter-spacing: -.022em;
   margin-bottom: .7rem;
+  padding-block-end: .06em;
   color: #fff;
 }
 .hero__subtitle {
@@ -803,7 +804,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   color: var(--ink-mute);
   margin: .3rem 0 0;
 }
-.stat dt.stat__label {
+.stat__kicker {
   font-size: .68rem;
   letter-spacing: .1em;
   text-transform: uppercase;

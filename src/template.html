@@ -353,31 +353,31 @@
           <p>{{t.about.body2}}</p>
         </div>
         <div class="reveal">
-          <dl class="stats">
+          <div class="stats">
             <div class="stat">
-              <dt class="stat__label">{{t.about.statRatingLabel}}</dt>
-              <dd class="stat__value">
+              <p class="stat__kicker">{{t.about.statRatingLabel}}</p>
+              <p class="stat__value">
                 {{business.ratingFormatted}}
                 <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.6l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.4l-5.8 3.1 1.1-6.45-4.7-4.6 6.5-.95L12 2.6Z"/></svg>
-              </dd>
+              </p>
               <p class="stat__label">{{t.about.statRating}}</p>
             </div>
             <div class="stat">
-              <dt class="stat__label">{{t.about.statReviewsLabel}}</dt>
-              <dd class="stat__value">{{business.ratingCount}}</dd>
+              <p class="stat__kicker">{{t.about.statReviewsLabel}}</p>
+              <p class="stat__value">{{business.ratingCount}}</p>
               <p class="stat__label">{{t.about.statReviews}}</p>
             </div>
             <div class="stat">
-              <dt class="stat__label">{{t.about.statTypeLabel}}</dt>
-              <dd class="stat__value stat__value--text">{{t.about.statTypeValue}}</dd>
+              <p class="stat__kicker">{{t.about.statTypeLabel}}</p>
+              <p class="stat__value stat__value--text">{{t.about.statTypeValue}}</p>
               <p class="stat__label">{{t.about.statType}}</p>
             </div>
             <div class="stat">
-              <dt class="stat__label">{{t.about.statPlaceLabel}}</dt>
-              <dd class="stat__value stat__value--text">{{business.cityShort}}</dd>
+              <p class="stat__kicker">{{t.about.statPlaceLabel}}</p>
+              <p class="stat__value stat__value--text">{{business.cityShort}}</p>
               <p class="stat__label">{{t.about.statPlace}}</p>
             </div>
-          </dl>
+          </div>
           <figure class="pull">
             <blockquote><p>{{t.about.pull}}</p></blockquote>
             <figcaption>{{t.about.pullAuthor}}</figcaption>
