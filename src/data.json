@@ -82,5 +82,8 @@
   "accent": "#2f4a3f",
   "deep": "#1a2a23",
   "gold": "#c9a26b",
-  "light": "#a9c3b2"
+  "light": "#a9c3b2",
+  "offerEnds": "2027-02-26",
+  "buyUrl": "",
+  "offerEmail": ""
 }
